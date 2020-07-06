@@ -1,0 +1,364 @@
+/* clear */
+
+article,
+aside,
+details,
+cite,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px Tahoma;
+    background-image: url(../img/body_bg.jpg);
+    background-size: 100%;
+    height: 100%;
+}
+
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 150%
+}
+
+h2 {
+    font-size: 130%
+}
+
+h3 {
+    font-size: 110%
+}
+
+h4 {
+    font-size: 100%
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    border-bottom: 1px dashed #fff;
+}
+
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.c-l-c {
+    clear: both;
+}
+
+
+/* /clear */
+
+
+/* general_site_css */
+
+.wraper {
+    max-width: 960px;
+    width: 98%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/* /general_site_css */
+
+
+/* Страница авторизации */
+
+#body_autorizaciya {
+    background-image: url(../img/body_bg.jpg);
+    color: #313E47;
+}
+
+#body_autorizaciya h1 {
+    font-size: 41px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#autorizaciy_form {
+    width: 465px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+#autorizaciy_form fieldset {}
+
+#autorizaciy_form fieldset > legend {
+    font-size: 18px;
+    color: #000;
+}
+
+#form_left {
+    float: left;
+    width: 270px;
+}
+
+#autorizaciy_form input[type="text"],
+#autorizaciy_form input[type="password"] {
+    width: 260px;
+    height: 30px;
+    margin-top: 15px;
+    background: #D7D7D7;
+    border: none;
+    box-shadow: 0px 0px 2px #000 inset;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#autorizaciy_form input[type="submit"] {
+    width: 271px;
+    height: 30px;
+    margin-top: 15px;
+    background: green;
+    border: none;
+    box-shadow: 1px 1px 2px #000;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#autorizaciy_form input[type="submit"]:active {
+    position: relative;
+    top: 1px;
+    right: 1px;
+    box-shadow: none;
+}
+
+#form_right {
+    float: right;
+    width: 150px;
+}
+
+#form_right img {
+    width: 100%;
+}
+
+
+/* Адинистративная панель */
+
+#main_header {
+    width: 100%;
+    background: #5160ae;
+}
+
+header {
+    height: 60px;
+    overflow: hidden;
+    color: #fff;
+    line-height: 60px;
+}
+
+#header_left {
+    float: left;
+}
+
+#header_left p {
+    font-size: 31px;
+}
+
+#header_right {
+    float: right;
+}
+
+#header_right a {
+    line-height: 60px;
+}
+
+#header_right i {
+    color: #fff;
+    padding: 0 10px;
+}
+
+table {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+table tr {
+    height: 100%;
+}
+
+table tr td {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    height: 100%;
+}
+
+.aside {
+    width: 25%;
+    padding: 2% 1.5%;
+    background: #97a3e0;
+}
+
+.aside nav {}
+
+.aside nav ul {}
+
+.aside nav ul li {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #8F8F8F;
+    border-top: 1px solid #C1C1C1;
+}
+
+.aside nav ul li:first-child {
+    border-top: 0;
+}
+
+.aside nav ul li:last-child {
+    border-bottom: 0;
+}
+
+.aside nav ul li a {
+    font-size: 19px;
+}
+
+.content {
+    width: 76%;
+    padding: 2%;
+    background: #e4e8fb;
+}
+
+label {
+    color: #414141;
+    font-size: 14px;
+}
+
+input[type='text'] {
+    margin-bottom: 10px;
+    width: 635px;
+    padding-left: 5px;
+}
+
+.input_autorization {
+    max-width: 300px;
+}
+
+.input_post {
+    max-width: 600px;
+}
+
+.input_seo {
+    width: 635px;
+}
+
+.input_price {
+    width: 162px;
+    float: left;
+}
+
+.input_price input {
+    max-width: 93%;
+}
+
+.input_kontakt {
+    width: 50%;
+    float: left;
+}
+
+.input_kontakt input {
+    max-width: 95%;
+}
+
+.input_rekvizit {
+    width: 50%;
+    float: left;
+}
+
+.input_rekvizit input {
+    max-width: 95%;
+}
+
+input[type='submit'] {
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #707070;
+    position: relative;
+    margin-top: 10px;
+    max-width: 250px;
+    width: 100%;
+    background: #97a3e0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+}
+
+input[type='submit']:active {
+    top: 2px;
+    left: 2px;
+    box-shadow: none;
+}
+
+#main_footer {
+    width: 100%;
+    background: #5160ae;
+}
+
+footer {
+    height: 60px;
+    overflow: hidden;
+    color: #fff;
+    line-height: 60px;
+}
+
+.copyrite {
+    color: #fff;
+    font-size: 16px;
+    text-align: right;
+}
+
+.copyrite a {}
+
+.vnimanie {
+    color: red;
+    font-size: 13px;
+}
+
+#img_404 {
+    width: 100%;
+    max-width: 535px;
+}
