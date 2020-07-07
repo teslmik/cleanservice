@@ -912,7 +912,7 @@
       <div class="popup__body">
         <div class="popup__content">
           <a href="#" class="popup__close close-popup">×</a>
-          <form action="#" class="callback__form" method="post">
+          <form action="telegram.php" class="callback__form" method="POST">
             <div class="form__title">Узнайте полную стоимость химчистки</div>
             <div class="form__body">
               <div class="form__phone">
@@ -921,7 +921,7 @@
                   id="phone"
                   name="phone"
                   placeholder="+380 (__) ___-__-__"
-                  class="phone-number"
+                  class="phone-number phone"
                   required=""
                 />
               </div>
@@ -932,7 +932,7 @@
             <div class="form__note">
               Нажимая кнопку “Узнать стоимость”, вы соглашаетесь с
               <a
-                href="https://cleanservice.odessa.ua/politika.html"
+                href="/politika.html"
                 class="politika1"
                 title="Политика конфиденциальности"
                 >политикой конфеденциальности</a
@@ -972,7 +972,7 @@
     <script type="text/javascript">
       /*Обязательный атрибут type="text/javascript*/
       $(function ($) {
-        $(".phone").mask("+38 (999) 999-99-99");
+        $(".phone").mask("+380 (99) 999-99-99");
       });
     </script>
   </body>
